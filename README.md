@@ -13,8 +13,12 @@ For reasons of time, so far there are just two pages:
 
 > /
 
+![alt text](https://github.com/guilhermemalfatti/skip-webapp/blob/master/images/search.PNG)
+
 That aims to search the tracks, so far there a fixed search by query "acdc"
 
 > /playlist
 
 That aims show the current playlist
+
+![alt text](https://github.com/guilhermemalfatti/skip-webapp/blob/master/images/playList.PNG)
