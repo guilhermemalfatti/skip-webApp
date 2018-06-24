@@ -1,7 +1,7 @@
 {
-  "name": "vaguenode-webapp-sourceforge-heroku",
+  "name": "skip web app",
   "version": "1.0.0",
-  "description": "Heroku + sourge force data display",
+  "description": "skip web app",
   "main": "server.js",
   "scripts": {
     "test": "no test yet",
