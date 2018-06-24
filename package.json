@@ -1,0 +1,27 @@
+{
+  "name": "vaguenode-webapp-sourceforge-heroku",
+  "version": "1.0.0",
+  "description": "Heroku + sourge force data display",
+  "main": "server.js",
+  "scripts": {
+    "test": "no test yet",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "author": "Guilherme Malfatti",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.5",
+    "express": "^4.6.1",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "q": "^1.5.1",
+    "request": "^2.87.0",
+    "url": "^0.11.0"
+  }
+}

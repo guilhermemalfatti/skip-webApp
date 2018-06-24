@@ -1,0 +1,7 @@
+{
+    "name": "node-webapp-sourceforge-heroku",
+    "description": "A basic web app using heroku + sourceForge",
+    "repository": "https://github.com/guilhermemalfatti/node-webapp-sourceforge-heroku",
+    "success_url": "/",
+    "addons": ["heroku-postgresql", "herokuconnect:demo"]
+}

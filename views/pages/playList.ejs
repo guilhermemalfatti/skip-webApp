@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">id</th>
+                <th scope="col">Name</th>
+              </tr>
+            </thead>
+            <tbody>              
+              <% songs.forEach(function(song, index) { %>
+                <tr>
+                  <th scope="row"><%= index %></th>
+                  <td><%= song.id %></td>
+                  <td><%= song.name %></td>
+                </tr>
+             <% }); %>
+            </tbody>
+          </table>
+    </div>
+    
+</main>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>
